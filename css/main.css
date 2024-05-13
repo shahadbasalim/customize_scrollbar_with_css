@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Cairo", sans-serif;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: #ececec;
+    box-shadow: 0 0 10px #ddd inset;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(165, 42, 42, 0.5);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(165, 42, 42, 0.7);
+}
